@@ -1,114 +1,72 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@InProceedings{amorim-etal-2024-text2story-python,
+    title = "text2story: A Python Toolkit to Extract and Visualize Story Components of Narrative Text",
+    author = "Amorim, Evelin  and
+      Campos, Ricardo  and
+      Jorge, Alipio  and
+      Mota, Pedro  and
+      Almeida, R{\'u}ben",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.1369",
+    pages = "15761--15772",
+    abstract = "Story components, namely, events, time, participants, and their relations are present in narrative texts from different domains such as journalism, medicine, finance, and law. The automatic extraction of narrative elements encompasses several NLP tasks such as Named Entity Recognition, Semantic Role Labeling, Event Extraction, Coreference resolution, and Temporal Inference. The text2story python, an easy-to-use modular library, supports the narrative extraction and visualization pipeline. The package contains an array of narrative extraction tools that can be used separately or in sequence. With this toolkit, end users can process free text in English or Portuguese and obtain formal representations, like standard annotation files or a formal logical representation. The toolkit also enables narrative visualization as Message Sequence Charts (MSC), Knowledge Graphs, and Bubble Diagrams, making it useful to visualize and transform human-annotated narratives. The package combines the use of off-the-shelf and custom tools and is easily patched (replacing existing components) and extended (e.g. with new visualizations). It includes an experimental module for narrative element effectiveness assessment and being is therefore also a valuable asset for researchers developing solutions for narrative extraction. To evaluate the baseline components, we present some results of the main annotators embedded in our packages for datasets in English and Portuguese. We also compare the results with the extraction of narrative elements by GPT-3, a robust LLM model.",
+    bibtex_show={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@InProceedings{10.1007/978-3-031-55015-7_35,
+  author="Abreu, Miguel
+  and Mota, Pedro
+  and Reis, Lu{\'i}s Paulo
+  and Lau, Nuno
+  and Florido, M{\'a}rio",
+  editor="Buche, C{\'e}dric
+  and Rossi, Alessandra
+  and Sim{\~o}es, Marco
+  and Visser, Ubbo",
+  title="FC Portugal: RoboCup 2023 3D Simulation League Champions",
+  booktitle="RoboCup 2023: Robot World Cup XXVI",
+  year="2024",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="416--427",
+  abstract="FC Portugal, a team from the universities of Porto and Aveiro, achieved the second consecutive victory in the main competition of the 2023 RoboCup 3D Simulation League. The team registered 18 wins, 1 tie, and 3 losses, scoring a total of 109 goals while conceding only 13. The codebase used in this competition was developed in Python after RoboCup 2021. This paper presents a brief overview of its structure along with the new features developed for this year's competition. The key developments include a revised dribble technique, designed to keep the ball further from the robot to prevent ball-holding fouls in compliance with new rules, and the introduction of a new programming language called TSAL. TSAL enables the creation of high-level team strategies in robotic soccer, combining deep symbolic reinforcement learning with human sub-optimal knowledge to optimize team tactics.",
+  isbn="978-3-031-55015-7",
+  bibtex_show={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@InProceedings{10.1007/978-3-030-99739-7_32,
+  author="Campos, Vasco
+  and Campos, Ricardo
+  and Mota, Pedro
+  and Jorge, Al{\'i}pio",
+  editor="Hagen, Matthias
+  and Verberne, Suzan
+  and Macdonald, Craig
+  and Seifert, Christin
+  and Balog, Krisztian
+  and N{\o}rv{\aa}g, Kjetil
+  and Setty, Vinay",
+  title="Tweet2Story: A Web App to Extract Narratives from Twitter",
+  booktitle="Advances in Information Retrieval",
+  year="2022",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="270--275",
+  abstract="Social media platforms are used to discuss current events with very complex narratives that become difficult to understand. In this work, we introduce Tweet2Story, a web app to automatically extract narratives from small texts such as tweets and describe them through annotations. By doing this, we aim to mitigate the difficulties existing on creating narratives and give a step towards deeply understanding the actors and their corresponding relations found in a text. We build the web app to be modular and easy-to-use, which allows it to easily incorporate new techniques as they keep getting developed.",
+  isbn="978-3-030-99739-7",
+  bibtex_show={true}
 }

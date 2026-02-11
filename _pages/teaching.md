@@ -18,4 +18,4 @@ redirect_from:
 
 [L.EIC029 - Artificial Intelligence](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=541894), 2nd Semester 2024/25
 
-[L.EIC005 - Discrete Mathematics]((https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=541869)), 1st Semester 2024/25
+[L.EIC005 - Discrete Mathematics](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=541869), 1st Semester 2024/25
